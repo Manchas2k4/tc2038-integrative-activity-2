@@ -21,13 +21,13 @@ Los ingenieros de la compañía han generado un mapa que muestra cada una de las
 ### <span style="color: rgb(26, 99, 169);">**Problema 2. Publicidad y contratación**</span>
 La empresa cuenta con poco personal así que la tareas de publicidad y contratación es manejada por un solo grupo de personas. La idea es recorrer cada una de las colonias, una solo vez cada una de ellas, y regresar al punto de inicio. A decir verdad, se desea que sea siempre la menor ruta posible.
 
-### <span style="color: rgb(26, 99, 169);">**Problema 3. Máximo servicio qe se puede ofrecer**</span>
-Como se comentó antes, la empresa cuenta con pocos recursos, por lo que los equipos instalados son muy heterogeneos. Por lo mismo, las capacidades máximas (Mbps) en los diferentes enlaces son muy varias. La empresa desea determinar cuál es la transferencia máxima que se puede obtener entre dos colonias determinadas. Para ello ya se cuenta con un registro de las velocidades de transferencia máxima entre cada una de las colonias instaladas.
+### <span style="color: rgb(26, 99, 169);">**Problema 3. Máximo servicio que se puede ofrecer**</span>
+Como se comentó antes, la empresa cuenta con pocos recursos, por lo que los equipos instalados son muy heterogéneos. Por lo mismo, las capacidades máximas (Mbps) en los diferentes enlaces son muy varias. La empresa desea determinar cuál es la transferencia máxima que se puede obtener entre dos colonias determinadas. Para ello ya se cuenta con un registro de las velocidades de transferencia máxima entre cada una de las colonias instaladas.
 
 ## <span style="color: rgb(26, 99, 169);">**Entrada**</span>
-El programa recibe dos grafos, uno no dirigo (que usarás en los dos primeros problemas) y un grafo no dirigido (que usarás para el tercer problema), en forma de matriz ponderada de adyacencias. La primera línea de entrada contiene un entero, *n* (7 <= *n* <= 15), indicando el número de vértices del grafo y dos enteros , *start* y *end* (0 <= *start*, *end* < n), vértices que se emplearan como inicio y fin para algunos problemas.
+El programa recibe dos grafos, uno no dirigido (que usarás en los dos primeros problemas) y un grafo no dirigido (que usarás para el tercer problema), en forma de matriz ponderada de adyacencias. La primera línea de entrada contiene un entero, *n* (7 <= *n* <= 15), indicando el número de vértices del grafo y dos enteros , *start* y *end* (0 <= *start*, *end* < n), vértices que se emplearan como inicio y fin para algunos problemas.
 
-A continuación, unas primeras *n*  líneas. La *i*-esima línea contiene *n* números.  El *j*-ésimo valor es la distancia, en kilometros, entre el centro de la colonia *i* con el centro de la colonia *j* (10 <= *m[i][j]* <= 100). En caso de no existir conexión, este valor será -1.
+A continuación, unas primeras *n*  líneas. La *i*-esima línea contiene *n* números.  El *j*-ésimo valor es la distancia, en kilómetros, entre el centro de la colonia *i* con el centro de la colonia *j* (10 <= *m[i][j]* <= 100). En caso de no existir conexión, este valor será -1.
 
 Las siguientes *n* líneas contienen las capacidad máximas de conexión. La *i*-esima línea contiene *n* números. El *j*-ésimo valor es la capacidad máxima, en Mbps, en el enlace que existe entre colonia *i* con la colonia *j* (10 <= *m[i][j]* <= 100). En caso de no existir conexión, este valor será -1.
 
