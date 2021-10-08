@@ -27,9 +27,9 @@ Como se comentó antes, la empresa cuenta con pocos recursos, por lo que los equ
 ## <span style="color: rgb(26, 99, 169);">**Entrada**</span>
 El programa recibe dos grafos, uno no dirigo (que usarás en los dos primeros problemas) y un grafo no dirigido (que usarás para el tercer problema), en forma de matriz ponderada de adyacencias. La primera línea de entrada contiene un entero, *n* (7 <= *n* <= 15), indicando el número de vértices del grafo y dos enteros , *start* y *end* (0 <= *start*, *end* < n), vértices que se emplearan como inicio y fin para algunos problemas.
 
-A continuación, unas primeras *n*  líneas. La *i*-esima línea contiene *n* números.  El *j*-ésimo valor es la distancia, en kilometros, entre el centro de la colonia *i* con el centro de la colonia *j*. En caso de no existir conexión, este valor será -1.
+A continuación, unas primeras *n*  líneas. La *i*-esima línea contiene *n* números.  El *j*-ésimo valor es la distancia, en kilometros, entre el centro de la colonia *i* con el centro de la colonia *j* (10 <= *m[i][j]* <= 100). En caso de no existir conexión, este valor será -1.
 
-Las siguientes *n* líneas contienen las capacidad máximas de conexión. La *i*-esima línea contiene *n* números. El *j*-ésimo valor es la capacidad máxima, en Mbps, en el enlace que existe entre colonia *i* con la colonia *j*. En caso de no existir conexión, este valor será -1.
+Las siguientes *n* líneas contienen las capacidad máximas de conexión. La *i*-esima línea contiene *n* números. El *j*-ésimo valor es la capacidad máxima, en Mbps, en el enlace que existe entre colonia *i* con la colonia *j* (10 <= *m[i][j]* <= 100). En caso de no existir conexión, este valor será -1.
 
 ## <span style="color: rgb(26, 99, 169);">**Salida**</span>
 En primer lugar, deberá desplegar la lista de arcos seleccionados para lograr la cobertura requerida. Los arcos aparecerán en orden descendente por costo. Cada arco deberá mostrarse como un par "(a, b)" donde a < b.
