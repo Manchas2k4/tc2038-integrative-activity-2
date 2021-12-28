@@ -1,5 +1,6 @@
 -------------------------------------
 Problem 1
+kruskal
 (8, 10)
 (6, 9)
 (0, 3)
@@ -14,7 +15,8 @@ Problem 1
 (2, 4)
 -------------------------------------
 Problem 2
-There is no possible route.
+Minimum cost: 377
+Path: 0 3 8 10 5 6 9 2 4 12 11 1 7 
 -------------------------------------
 Problem 3
 Maximum flow from 6 to 9 is 373

@@ -2,15 +2,17 @@
 # Actividad Integradora 2
 
 ## <span style="color: rgb(26, 99, 169);">¿Qué tengo que hacer?</span>
-En este repositorio encontrarás archivos de entrada, así como las salidas esperadas que podrás usar para probar tu implementación. También encontrarás un "main.cpp". En este archivo deberás desarrollar la implementación del problema presentado en esta actividad.  En la parte superior del archivo coloca, en comentarios, tus datos. Por ejemplo:
+En este repositorio encontrarás el archivo "main.cpp". En este archivo deberás desarrollar la implementación del problema presentado en esta actividad. En la parte superior del archivo coloca, en comentarios, tus datos. Por ejemplo:
 ```
 // =========================================================
 // File: main.cpp
-// Author: Edward Elric - A00123456
+// Authors:
+//  Edward Elric - A00123456
+//  Alphonse Elric - A00124598
 // Date: 01/01/2021
 // =========================================================
 ```
-Implementa, <span style="text-decoration-line: underline;">de forma individual</span>, un solución para el conjunto de problemas que se describen a continuación.
+Implementa, <span style="text-decoration-line: underline;">en equipos de 2 personas (máximo)</span>, una solución para el conjunto de problemas que se describen a continuación.
 
 ## <span style="color: rgb(26, 99, 169);">**Descripción**</span>
 La empresa "InternetMáximo" ha empezado operaciones en la ciudad. Actualmente con poco personal y dinero inicial, así que requiere tomar decisiones inteligentes que le permitan entrar pronto en competencia con las empresas ya instaladas.
@@ -41,10 +43,10 @@ Por último, se desplegará la velocidad máxima de transferencia que se puede l
 ## <span style="color: rgb(26, 99, 169);">**Ejemplo de entrada**</span>
 ```
 4 0 3
-0 16 45 32
-16 0 18 21
-45 18 0 7
-32 21 7 0
+ 0 16 45 32
+16  0 18 21
+45 18  0  7
+32 21  7  0
 0 48 12 -1
 52 0 42 -1
 18 -1 0 56
@@ -60,8 +62,8 @@ Problem 1
 (1, 2)
 -------------------------------------
 Problem 2
-Minimum cost: 9
-Path: 0 2 1 3
+Minimum cost: 73
+Path: 0 1 2 3
 -------------------------------------
 Problem 3
 Maximum flow from 0 to 3 is 54
@@ -72,12 +74,7 @@ Para probar tu implementación, compila tu programa con el comando:
 ```
 g++ -std=c++11 main.cpp -o app
 ```
-Posteriormente, ejecuta tu programa. Para realizar las pruebas, puedes usar las siguientes líneas de código.
-```
-./app > mysolution.txt
-diff mysolution.txt solution.txt
-```
-Si el segundo comando no tiene ninguna salida, los resultados que obtuviste son los esperados.
+Posteriormente, ejecuta tu programa. Para realizar las pruebas, puedes usar los archivos de salida que encuentran en el repositorio (*output1.txt*, *output2.txt*, *output3.txt*, *output4.txt*). Revisa que tu solución despliegue los mismos valores, aunque no necesariamente en el mismo orden.
 
 ## <span style="color: rgb(26, 99, 169);">**¿Bajo qué criterios se evalúa mi evidencia?**</span>
 
