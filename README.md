@@ -75,6 +75,11 @@ Para probar tu implementación, compila tu programa con el comando:
 g++ -std=c++11 main.cpp -o app
 ```
 Posteriormente, ejecuta tu programa. Para realizar las pruebas, puedes usar los archivos de salida que encuentran en el repositorio (*output1.txt*, *output2.txt*, *output3.txt*, *output4.txt*). Revisa que tu solución despliegue los mismos valores, aunque no necesariamente en el mismo orden.
+Posteriormente, ejecuta tu programa. Para realizar las pruebas, puedes usar las siguientes líneas de código.
+```
+./app > mysolutionX.txt
+diff mysolutionX.txt ouputX.txt
+```
 
 ## <span style="color: rgb(26, 99, 169);">**¿Bajo qué criterios se evalúa mi evidencia?**</span>
 
